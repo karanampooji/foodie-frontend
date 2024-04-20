@@ -2,7 +2,8 @@ import axios from "axios";
 import cogoToast from "cogo-toast";
 
 export const instance = axios.create({
-  baseURL: "http://localhost:5000",
+  // baseURL: "http://localhost:5000",
+  baseURL:"https://foodie-backend-vdg0.onrender.com",
   headers: {
     "Access-Control-Allow-Origin": "*",
   },
